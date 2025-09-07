@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.faq-answer {
+  display: none;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
